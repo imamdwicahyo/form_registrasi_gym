@@ -71,10 +71,19 @@ public class ModelRegistrasi {
     }
 
     public void hargaPaket() {
-
+        if (paket=="Reguler"){
+            biaya = "Rp.450.000 / Bln";
+        }else if (paket == "Mahasiswa"){
+            biaya = "Rp.300.000 / Bln";
+        }else if (paket == "Private"){
+            biaya = "Rp.750.000 / Bln";
+        }else if (paket == "Premium"){
+            biaya = "Rp.1.000.000 / Bln";
+        }
     }
 
-    public void jenisHanduk() {
+    public void jenisHanduk(String jenis) {
+        this.handuk = handuk + " " +jenis;
     }
 
 }
