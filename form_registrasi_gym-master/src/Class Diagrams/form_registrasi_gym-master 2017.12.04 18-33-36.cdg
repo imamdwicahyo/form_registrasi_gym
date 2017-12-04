@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="form_registrasi_gym-master">
+  <ClassDiagramComponents>
+    <Class name="ModelRegistrasi" package="Model" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="noKtp" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getNoKtp" returnType="String" visibility="public"/>
+        <Method name="setNoKtp" returnType="void" visibility="public">
+          <Argument type="String" name="noKtp"/>
+        </Method>
+        <Method name="getNama" returnType="String" visibility="public"/>
+        <Method name="setNama" returnType="void" visibility="public">
+          <Argument type="String" name="nama"/>
+        </Method>
+        <Method name="getjKelamin" returnType="String" visibility="public"/>
+        <Method name="setjKelamin" returnType="void" visibility="public">
+          <Argument type="String" name="jKelamin"/>
+        </Method>
+        <Method name="getCabang" returnType="String" visibility="public"/>
+        <Method name="setCabang" returnType="void" visibility="public">
+          <Argument type="String" name="cabang"/>
+        </Method>
+        <Method name="getHanduk" returnType="String" visibility="public"/>
+        <Method name="setHanduk" returnType="void" visibility="public">
+          <Argument type="String" name="handuk"/>
+        </Method>
+        <Method name="getPaket" returnType="String" visibility="public"/>
+        <Method name="setPaket" returnType="void" visibility="public">
+          <Argument type="String" name="paket"/>
+        </Method>
+        <Method name="getBiaya" returnType="String" visibility="public"/>
+        <Method name="setBiaya" returnType="void" visibility="public">
+          <Argument type="String" name="biaya"/>
+        </Method>
+        <Method name="hargaPaket" returnType="void" visibility="public"/>
+        <Method name="jenisHanduk" returnType="void" visibility="public">
+          <Argument type="String" name="jenis"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MainView" package="View" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="btnSimpan" type="javax.swing.JButton" visibility="private"/>
+        <Field name="chkBesar" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="chkKecil" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="comboCabang" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="female" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="genderRadio" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="listPaket" type="javax.swing.JList&lt;String&gt;" visibility="private"/>
+        <Field name="male" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="txtNama" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtNoKtp" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="txtOutput" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="maleActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="chkKecilActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="btnSimpanActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="txtNoKtpActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
